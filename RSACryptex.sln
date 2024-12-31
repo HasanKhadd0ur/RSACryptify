@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source Code", "Source Code"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Core", "Application Core", "{6AFA9CA5-DE83-47D0-894A-B230008B7155}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSACryptify.Core", "src\RSACryptify.Core\RSACryptify.Core.csproj", "{9DEB188F-A659-4F9F-B8F9-7F7295831619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSACryptify.Core", "src\RSACryptify.Core\RSACryptify.Core.csproj", "{9DEB188F-A659-4F9F-B8F9-7F7295831619}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6007C7A7-2B6A-4A48-B3B1-918713DB959D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSACryptify.Web", "src\RSACryptify.Web\RSACryptify.Web.csproj", "{B1CCD2B9-C1E9-448C-9D21-E214BBAB7587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSACryptify.Web", "src\RSACryptify.Web\RSACryptify.Web.csproj", "{B1CCD2B9-C1E9-448C-9D21-E214BBAB7587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSACryptify.Application", "RSACryptify.Application\RSACryptify.Application.csproj", "{9AFBD449-94C0-4AE1-91BD-CF2246755A1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B1CCD2B9-C1E9-448C-9D21-E214BBAB7587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1CCD2B9-C1E9-448C-9D21-E214BBAB7587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1CCD2B9-C1E9-448C-9D21-E214BBAB7587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AFBD449-94C0-4AE1-91BD-CF2246755A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AFBD449-94C0-4AE1-91BD-CF2246755A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AFBD449-94C0-4AE1-91BD-CF2246755A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AFBD449-94C0-4AE1-91BD-CF2246755A1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 		{9DEB188F-A659-4F9F-B8F9-7F7295831619} = {6AFA9CA5-DE83-47D0-894A-B230008B7155}
 		{6007C7A7-2B6A-4A48-B3B1-918713DB959D} = {CEADD0BE-E53A-426E-B8D1-76D116A39F2D}
 		{B1CCD2B9-C1E9-448C-9D21-E214BBAB7587} = {6007C7A7-2B6A-4A48-B3B1-918713DB959D}
+		{9AFBD449-94C0-4AE1-91BD-CF2246755A1B} = {6AFA9CA5-DE83-47D0-894A-B230008B7155}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF9DDDCD-912F-4D7A-96FC-2CDD95CDE882}
