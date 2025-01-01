@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RSACryptify.Web", "src\RSACryptify.Web\RSACryptify.Web.csproj", "{B1CCD2B9-C1E9-448C-9D21-E214BBAB7587}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSACryptify.Application", "RSACryptify.Application\RSACryptify.Application.csproj", "{9AFBD449-94C0-4AE1-91BD-CF2246755A1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSACryptify.Application", "src\RSACryptify.Application\RSACryptify.Application.csproj", "{9AFBD449-94C0-4AE1-91BD-CF2246755A1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
